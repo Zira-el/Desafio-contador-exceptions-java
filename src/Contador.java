@@ -31,9 +31,9 @@ public class Contador {
     }
 
     private static void contar(int numeroUm, int numeroDois) {
-        int contador = numeroDois - numeroUm;
-        System.out.println("A contagem terá " + contador + " interações");
-        for (int contando = 1; contando <= contador; contando++) {
+        int iteracoes = numeroDois - numeroUm;
+        System.out.println("A contagem terá " + iteracoes + " interações");
+        for (int contando = 1; contando <= iteracoes; contando++) {
             System.out.println("Imprimindo o número " + contando);
         }
     }
